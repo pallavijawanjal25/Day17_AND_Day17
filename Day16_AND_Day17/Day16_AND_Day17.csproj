@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4213D17-AA5E-4F66-B9F1-BA8D3FCECF43}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Day16_AND_Day17</RootNamespace>
+    <AssemblyName>Day16_AND_Day17</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithm Programing\P11_TaskDoneByMaximumAmount.cs" />
+    <Compile Include="Algorithm Programing\P12_CustomizedMessage.cs" />
+    <Compile Include="Algorithm Programing\P1_PermutationsOfString.cs" />
+    <Compile Include="Algorithm Programing\P2_BinarySearch.cs" />
+    <Compile Include="Algorithm Programing\P3_InsertionSort.cs" />
+    <Compile Include="Algorithm Programing\P4_BubbleSort.cs" />
+    <Compile Include="Algorithm Programing\P5_MergeSort.cs" />
+    <Compile Include="Algorithm Programing\P6_Anagrams.cs" />
+    <Compile Include="Algorithm Programing\P7_PrimeNumbers.cs" />
+    <Compile Include="Algorithm Programing\P8_AnagramAndPalindromeNumber.cs" />
+    <Compile Include="Algorithm Programing\P9_SearchingAndSortingUsingGenerics.cs" />
+    <Compile Include="Data Structure Program\P12_Calander.cs" />
+    <Compile Include="Data Structure Program\P3_SimpleBalancedParentheses..cs" />
+    <Compile Include="Data Structure Program\P5_PalindromeChecker.cs" />
+    <Compile Include="Data Structure Program\P1_unOrderedList.cs" />
+    <Compile Include="Data Structure Program\P2_OrderedList.cs" />
+    <Compile Include="Data Structure Program\P3_SimpleBalancedParentheses.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Algorithm Programing\.editorconfig" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
